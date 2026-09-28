@@ -1,11 +1,126 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio Rajsri</title>
-</head>
-<body>
-    <h1>Welcome to our website.</h1>
-</body>
+  </head>
+  <body>
+    <header>
+      <div class="studio_logo">SR</div>
+
+      <nav class="Navigations">
+        <a href="">Home</a>
+        <a href="">Services</a>
+        <a href="">Pricing</a>
+        <a href="">Forms</a>
+        <a href="">Gallery</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+      </nav>
+
+      <nav class="mobile_navigation_placeholder"></nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero_article">
+        <h3 class="small_introductory_text">
+          Main Road, Pesham • Birni • Giridih.
+        </h3>
+        <h1 class="main_heading">STUDIO Rajshri</h1>
+        <p class="short_description">
+          Photo studio, selected CSC services, printing and photo framing — with
+          the convenience of sending your work in advance on WhatsApp.
+        </p>
+      </div>
+
+      <div class="hero_menu">
+        <a href="#advance_document_submission" class="primary_action"
+          >Send Documents</a
+        >
+        <a class="secondary_action">View Services</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h3>SERVICES</h3>
+      <div class="container service_container">
+        <div class="service_box">
+          <div class="service_icon"></div>
+          <p class="service_title"></p>
+          <div class="p service_short_description"></div>
+          <button class="service_optional_action"></button>
+        </div>
+        <div class="service_box">
+          <div class="service_icon"></div>
+          <p class="service_title"></p>
+          <div class="p service_short_description"></div>
+          <button class="service_optional_action"></button>
+        </div>
+        <div class="service_box">
+          <div class="service_icon"></div>
+          <p class="service_title"></p>
+          <div class="p service_short_description"></div>
+          <button class="service_optional_action"></button>
+        </div>
+        <div class="service_box">
+          <div class="service_icon"></div>
+          <p class="service_title"></p>
+          <div class="p service_short_description"></div>
+          <button class="service_optional_action"></button>
+        </div>
+        <div class="service_box">
+          <div class="service_icon"></div>
+          <p class="service_title"></p>
+          <div class="p service_short_description"></div>
+          <button class="service_optional_action"></button>
+        </div>
+        <div class="service_box">
+          <div class="service_icon"></div>
+          <p class="service_title"></p>
+          <div class="p service_short_description"></div>
+          <button class="service_optional_action"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <h3>PRICING</h3>
+
+      <div class="container contpricing_container">
+        <div class="printing pricing_box"><p>Printing</p></div>
+        <div class="photo_printing pricing_box"><p>Photo Printing</p></div>
+        <div class="passport_photos pricing_box"><p>Passport Photos</p></div>
+        <div class="resume pricing_box"><p>Resume</p></div>
+        <div class="other_services pricing_box"><p>Other Services</p></div>
+      </div>
+    </section>
+
+    <section
+      class="advance_document_submission"
+      id="advance_document_submission"
+    >
+      <div class="container advance_document_submission_container">
+        <div class="explaination">
+          <h3>save a trip</h3>
+          <h1>Send it now collect it later.</h1>
+        </div>
+
+        <p>
+          Need a xerox, printout or resume? Fill in your basic details and
+          continue to WhatsApp. You can attach your documents there. We can
+          prepare them before you visit.
+        </p>
+
+        <input type="file" name="select_document" id="select_document" />
+      </div>
+
+      <form action="">
+        <input type="text" name="name" id="customer_name" />
+        <input type="number" name="mobile" id="mobile_number" />
+        <textarea name="" id=""></textarea>
+        <input type="submit" value="send" />
+      </form>
+    </section>
+  </body>
 </html>
